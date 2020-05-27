@@ -39,9 +39,6 @@ a{
 /* LOADING */
 
 
-.hidden{
-  /* overflow: hidden; */
-}
 
 .centrado {
   position: fixed;
@@ -243,10 +240,15 @@ nav{
 
 .servicios {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: center;
   margin: auto;
   color: #fff;
+}
+
+.caja-servicios{
+  margin-bottom: calc(var(--espacios) + 5px) ;
 }
 
 .caja-servicio>h4 {
